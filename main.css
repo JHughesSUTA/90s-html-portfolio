@@ -1,4 +1,4 @@
-html, body, h1, h2, h3, h4, p, div {
+html, body, h1, h2, h3, h4, p, div, ul, ol, li {
   padding: 0;
   border: 0;
   margin: 0;
@@ -27,6 +27,15 @@ h2 strong {
   font-weight: 400;
 }
 
+h3 {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  text-align: center;
+  border-bottom: 1px solid #555555;
+  margin: 20px 0 20px 0;
+}
+
 .header {
   background-color: grey; 
 }
@@ -34,4 +43,22 @@ h2 strong {
 .tagline {
   background-color: black;
   padding: 20px 0 20px 0;
+}
+
+.projects {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.projects ul {
+  list-style-type: none;
+}
+
+.project li {
+  margin-bottom: 10px;
+}
+
+.banner {
+  width: 700px;
+  height: 300px;
 }
