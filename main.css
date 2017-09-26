@@ -68,17 +68,27 @@ a:hover {
   padding: 20px 0 20px 0;
 }
 
-.projects, .badges, .articles {
+.projects, .badges, .articles, .skills {
   width: 700px;
   margin: 0 auto;
 }
 
-.projects ul, .badges ul, .articles ul {
+.projects ul, .badges ul, .articles ul, .skills ul {
   list-style-type: none;
 }
 
-.project li, .badges li, .articles li {
+.projects li, .badges li, .articles li, .skills li {
   margin-bottom: 10px;
+}
+
+.skills li {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: #444444;
+  color: #cccccc;
+  display: inline;
+  padding: 8px 8px 8px 8px;
+  margin-right: 18px;
 }
 
 .badges img {
